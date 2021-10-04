@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+nav {
+    background-color: #212121;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+h1, p {
+    color: #fff
+}
+nav, ul {
+    display: flex;
+    flex-direction: row;
+}
+li {
+    padding: 0 30px;
+}
+h1{
+    margin: 0;
+    padding: 10px;
+}
+button {
+    background-color: transparent;
+    border: none;
+    color: #F9A825;;
+    font-size: 36px ;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+li:hover, h1:hover, button:hover {
+    cursor: pointer;
+    opacity: 0.2;
+background-color: red;
+}
+
+/*rodapé*/
+
+footer{
+    padding: 20px;
+    background: #212121;
+    color: #fff;
+    margin-top: 220px;
+    font-family: Helvetica;
+    display: table;
+    width: 95%;
+}
+
+footer dl, footer p {
+    display: table-cell;
+    vertical-align: middle;
+}
+footer dt {
+    font-weight: bold;
+}
+
+footer dd {
+    margin-left: 0;
+}
+footer p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+form p{
+    color: #F9A825;
+}
